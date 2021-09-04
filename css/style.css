@@ -22,12 +22,20 @@ header .title {
 }
 
 /* Weather Dashboard Styling */
-#title {
+#titleText {
     padding: 25px;
 }
 
-#header {
-    color: white;
+#search-button {
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+#city-input {
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 ul { 
@@ -46,14 +54,14 @@ li {
 
 .card {
     width: 100%;
-    background-color: #ececec;
+    background-color: white;
 }
 
 .forecast-card {
     color: white;
-    background-color:#0275d8;
-    border-radius: 5px;
-    font-size: 8pt;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .search-section {
@@ -62,16 +70,17 @@ li {
 
 .cityList {
     border: solid;
-    border-width: thin;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px;
-    padding-left: 2px;
-    background-color: lightgrey;
+    padding-left: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
 
 .cityList:hover {
-    background-color: #0275d8;
-    color: #fff;
+    background-color: black;
+    color:white;
 }
 
 #fiveDayHeader {
